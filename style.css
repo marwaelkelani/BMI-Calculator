@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 1px solid grey;
+    text-align: center;
+    width: 20%;
+}
+
+label {
+    font-weight: bold;
+}
+
+#results {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
