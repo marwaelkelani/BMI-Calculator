@@ -10,32 +10,29 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
-
-
-
 </head>
 
 <style>
-    h1 {
+   body {
+    background-color: azure;
+   }
+   
+   h1 {
         text-align: center;
         margin: 30px;
     }
 
-    /* .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        border: 3px solid black;
-    } */
-
     .container {
         display: grid;
         grid-template-rows: auto auto;
-        border: 3px solid black;
+        border: 1px solid gray;
+        border-radius: 5px;
         width: 430px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 100px;
+        margin-top: 50px;
         padding: 20px;
+        background-color: white;
     }
 
     .mb-3 {
@@ -57,7 +54,8 @@
     }
 
     #writeData {
-        border: 3px solid black;
+        border: 1px solid gray;
+        border-radius: 5px;
         width: 375px;
         margin-left: auto;
         margin-right: auto;
@@ -70,9 +68,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-info">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">BMI Calculator</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -82,13 +80,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" href="conversions.html">Converting Units</a>
               </li>
             </ul>
           </div>
