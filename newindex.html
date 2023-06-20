@@ -128,7 +128,7 @@
 
 
         function calculateBMI(weight, height) {
-            results.innerHTML = "Your BMI is " + parseFloat(wt.value) / (parseFloat(ht.value) ** 2) + " kg / m2";
+            results.innerHTML = "Your BMI is " + Math.floor(parseFloat(wt.value) / (parseFloat(ht.value) ** 2)) + " kg / m2";
 
         }
         submitBtn.addEventListener('click', calculateBMI);
